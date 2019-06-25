@@ -2,6 +2,7 @@ require "minitest/autorun"
 require "rspec/mocks/minitest_integration"
 
 require_relative "../lib/cocoacache"
+require_relative "helper"
 
 class CommandTest < Minitest::Test
 

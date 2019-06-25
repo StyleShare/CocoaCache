@@ -2,6 +2,7 @@ require "digest"
 require "minitest/autorun"
 
 require_relative "../lib/cocoacache"
+require_relative "helper"
 
 class CoreTest < Minitest::Test
 
