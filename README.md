@@ -64,11 +64,12 @@ cache:
   - directories:
     - Specs
 
-before_install:
-  - ruby scripts/cache_cocoapods.rb restore
+install:
+  - gem install cocoacache && cocoacache restore
+  - pod install
 
 before_cache:
-  - ruby scripts/cache_cocoapods.rb save
+  - cocoacache save
 ```
 
 ## License
