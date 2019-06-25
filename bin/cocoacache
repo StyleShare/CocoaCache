@@ -2,4 +2,5 @@
 
 require "cocoacache"
 
-CocoaCache::Command.run(ARGV)
+core_factory = CocoaCache::Core
+CocoaCache::Command.run(core_factory, ARGV)
