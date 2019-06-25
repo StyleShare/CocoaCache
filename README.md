@@ -40,7 +40,7 @@ $ gem install cocoacache
 
 ## Usage
 
-```console
+```
 Usage: cocoacache COMMAND [options]
 
 Commands:
