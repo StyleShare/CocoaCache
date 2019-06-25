@@ -1,0 +1,8 @@
+ignore:
+  - bin
+  - test
+
+coverage:
+  status:
+    project: off
+    patch: off
