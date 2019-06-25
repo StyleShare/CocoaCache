@@ -38,7 +38,18 @@ module CocoaCache
     end
 
     def self.help
-      puts "Usage: cocoacache [save|restore]"
+      puts <<~HELP
+      Usage: cocoacache COMMAND [options]
+
+      Commands:
+        save        Copy specs from the origin Specs to cache directory.
+        restore     Copy the cached Specs back to the origin directory.
+
+      Options:
+        --origin <value>    The origin Specs directory. Defaults to $HOME/.cocoapods/repos/master/Specs
+        --cache <value>     Where to cache the Specs. Defaults to ~/Specs
+        --podfile <value>   The path for the Podfile.lock. Defaults to ~/Podfile.lock
+      HELP
     end
 
     def self.parse_argument(argv, name)
