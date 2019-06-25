@@ -1,0 +1,16 @@
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - Alamofire
+    - Kingfisher
+    - Moya
+    - Nimble
+    - Quick
+    - ReactorKit
+    - RxCocoa
+    - RxSwift
+    - RxTest
+    - SnapKit
+    - Stubber
+    - Texture
+    - Then
+    - URLNavigator
