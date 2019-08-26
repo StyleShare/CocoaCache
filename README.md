@@ -1,8 +1,8 @@
 # CocoaCache
 
 [![Gem](https://img.shields.io/gem/v/cocoacache.svg)](https://rubygems.org/gems/cocoacache)
-[![Build Status](https://travis-ci.org/devxoul/CocoaCache.svg?branch=master)](https://travis-ci.org/devxoul/CocoaCache)
-[![Codecov](https://img.shields.io/codecov/c/github/devxoul/CocoaCache.svg)](https://codecov.io/gh/devxoul/CocoaCache)
+[![Build Status](https://travis-ci.org/StyleShare/CocoaCache.svg?branch=master)](https://travis-ci.org/StyleShare/CocoaCache)
+[![Codecov](https://img.shields.io/codecov/c/github/StyleShare/CocoaCache.svg)](https://codecov.io/gh/StyleShare/CocoaCache)
 
 Partial CocoaPods Specs cache for the faster CI build.
 
