@@ -36,7 +36,8 @@ module CocoaCache
 
     def get_pods()
       lockfile = YAML.load(File.read(@podfile_path))
-      pods = lockfile["SPEC REPOS"]["https://github.com/cocoapods/specs.git"]
+      spec_repos = lockfile["SPEC REPOS"].transform_keys {|key| key.downcase }
+      pods = spec_repos["https://github.com/cocoapods/specs.git"]
       return pods
     end
 
